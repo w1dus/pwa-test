@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{ 
+    box-sizing: border-box; 
+    padding:0; margin:0;
+    font-family: 'Ubuntu', sans-serif;
+    color:inherit; 
+    font-family: inherit;
+    font-weight: 200;
+}
+ul,ol{ list-style: none; }
+input:focus, input:active, input:active:focus{ outline: none; }
+
+.App{ 
+    background-color:#020631; color:#fff; 
+    width:100%; min-height:100vh; 
+    display:flex; justify-content: center; 
+    padding:40px 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contentBox{
+    max-width:400px;
+    width:100%;
+}

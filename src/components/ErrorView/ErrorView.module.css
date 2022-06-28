@@ -1,0 +1,7 @@
+
+.on_error{ 
+    color:red; padding:20px 0 0 0; text-align: center; 
+    opacity:0.8; transition:all 0.5s;
+    height:auto;
+}
+

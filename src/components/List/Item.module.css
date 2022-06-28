@@ -1,0 +1,46 @@
+input { color:#222; }
+
+.item{ 
+    background-color:#fff; color:#222; 
+    padding:10px; border-radius:5px; 
+    cursor : pointer; word-break: break-word;
+    display:flex; justify-content: space-between;
+    margin-bottom:10px;
+    transition:all 0.5s;
+}
+.item::before { 
+    border:2px solid gray; border-radius:2px; content:''; 
+    display:block; width:10px; height:10px; margin:2px 10px 0 0; 
+    padding:1px;
+}
+
+.modi_form { width : calc(100% - 65px); padding-right:10px; }
+.modi_form input{ width:100%; padding:5px; font-size:14px; }
+.span { width : calc(100% - 65px); font-size:14px; padding-right:5px; }
+.modi_input{ padding:5px; width:80%; }
+
+
+.btnWrap{ width:45px; display:flex; justify-content: space-between; }
+.btnWrap button{ background-color:transparent; cursor: pointer; border:none; }
+
+.item_check{ 
+    background-color:rgb(85, 41, 220); 
+    color:#fff; 
+    padding:10px; border-radius:5px; 
+    cursor : pointer; word-break: break-word;
+    display:flex; justify-content: space-between;
+    margin-bottom:10px;
+    transition:all 0.5s;
+}
+.item_check::before { 
+    border:2px solid gray; border-radius:2px; background-color:#fff;
+    padding:1px;
+    content:'✔️'; font-size:10px; display:flex; justify-content: center; align-items: center; 
+    width:10px; height:10px; margin:2px 10px 0 0; 
+}
+
+
+
+
+
+
